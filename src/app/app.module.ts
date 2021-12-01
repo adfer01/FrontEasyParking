@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RegistrarVehiculoComponent } from './Components/registrar-vehiculo/registrar-vehiculo.component';
+import { ActualizarVehiculoComponent } from './Components/actualizar-vehiculo/actualizar-vehiculo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RegistrarVehiculoComponent
+    RegistrarVehiculoComponent,
+    ActualizarVehiculoComponent
   ],
   imports: [
     BrowserModule,
